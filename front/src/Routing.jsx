@@ -9,10 +9,9 @@ function Routing() {
             <Routes>
                 <Route path='/'  element= { <HomePage />  }/>
                 <Route path='/news'  element= { <NewsPage />  }/>
-
             </Routes>
         </>
     )
 }
 
-export default Routing
+export default Routing;
