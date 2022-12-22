@@ -75,3 +75,34 @@ hr {
 .bottom_border_image {
     margin: 70px 0 0px;
 }
+
+.border_img_text_elements {
+    background: url(../../img/bg_im.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    margin: 70px 0 0;
+}
+
+.border_elements {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100px;
+    line-height: 50px;
+}
+
+.border_elements h1 {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: 'Public Sans';
+    font-style: normal;
+}
+
+.border_elements h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -3,13 +3,13 @@ import BottomNavbar from './bottomNavbar'
 import MainNavbar from './mainNavbar'
 import NavbarMenu from './navbarMenu'
 
-
 export default function NewsPage() {
   return (
-    <body>
+    <div>
       <NavbarMenu />
       <BottomNavbar />
       <MainNavbar />
-    </body>
+      <navbarTextIcon />
+    </div>
   )
 }
