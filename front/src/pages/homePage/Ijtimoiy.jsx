@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Ijtimoiy = () =>{
+const Ijtimoiy = () => {
 
-    return(
+    return (
         <>
             <div className="container ijtimoiy">
                 <div className="ijtimoiy_email">

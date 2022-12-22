@@ -1,0 +1,7 @@
+New File Add:
+
+git add .
+
+git commit -m ' What File Add?'
+
+git push
