@@ -1,4 +1,4 @@
-.ijtimoiy{
+.ijtimoiy {
     width: 100vw;
     height: 100px;
     display: flex;
@@ -10,37 +10,44 @@
 
 .border_navbar {
     background-color: #2C3A61;
-    color: white; 
+    color: white;
 }
-.ijtimoiy_email{
+
+.ijtimoiy_email {
     display: flex;
     height: 100%;
     width: 300px;
     align-items: center;
     justify-content: space-between;
 }
-.ijtimoiy_email p{
+
+.ijtimoiy_email p {
     margin: 0;
 }
-.ijtimoiy_iconlar{
+
+.ijtimoiy_iconlar {
     display: flex;
     height: 100%;
     width: 300px;
     align-items: center;
     justify-content: space-evenly;
 }
-hr{
+
+hr {
     margin: 0;
 }
-.linklar a{
-    margin: 0 10px ;
-    font-size: 14px!important;
-    color: white!important;
+
+.linklar a {
+    margin: 0 10px;
+    font-size: 14px !important;
+    color: white !important;
 }
-.uzun{
-    width: 130px!important;
+
+.uzun {
+    width: 130px !important;
 }
-.asosiy{
+
+.asosiy {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +64,7 @@ hr{
     left: -100px;
     top: 38px;
 }
+
 .txt_link {
     font-family: 'Inter';
     margin-left: 48px;
@@ -64,8 +72,6 @@ hr{
     font-size: 14px;
 }
 
-.border_navbar_main {
-    background: url('../../img/bg_im.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+.bottom_border_image {
+    margin: 70px 0 0px;
 }

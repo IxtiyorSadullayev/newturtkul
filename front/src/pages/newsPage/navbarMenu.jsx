@@ -1,6 +1,5 @@
 import React from 'react'
 import './navbarMenu.css'
-
 export default function NavbarMenu() {
   return (
     <div className='border_navbar'>
