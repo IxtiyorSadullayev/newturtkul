@@ -1,5 +1,5 @@
 header{
-    width: 100%;
+    width: 100vw!important;
     height: 700px;
     background: url('../../img/header.png');
     background-position: center center;
@@ -8,12 +8,19 @@ header{
     color: white;
 }
 .ijtimoiy{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width:600px) {
+    .ijtimoiy{
+        display: none;
+    }
+}
+
 .ijtimoiy_email{
     display: flex;
     height: 100%;
@@ -36,6 +43,7 @@ hr{
 }
 .linklar a{
     margin: 0 10px ;
+    font-size: 14px!important;
     color: white!important;
 }
 .uzun{

@@ -3,6 +3,7 @@ import Ijtimoiy from './Ijtimoiy'
 import './homepage.css'
 import Navbar from './Navbar'
 import Asosiy from './Asosiy'
+import Ofy from './OFYlar/Ofy'
 function HomePage() {
   return (
     <>
@@ -12,6 +13,7 @@ function HomePage() {
         <Navbar />
         <Asosiy />
       </header>
+      <Ofy />
     </>
   )
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Logo from './../../img/logo.png';
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm ">
+        <nav className="navbar navbar-expand-lg ">
             <div className="container">
                 <a href="/" className="navbar-brand"><img src={Logo} alt="Logo" /></a>
                 <button className="navbar-toggler" data-bs-toggle='collapse' data-bs-target='#menu'>
@@ -17,12 +17,6 @@ const Navbar = () => {
                             <a href="/" className="nav-link">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/" className="nav-link uzun">ABOUT US</a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="/" className="nav-link uzun">OUR AGENTS</a>
-                        </li>
-                        <li className="nav-item">
                             <a href="/" className="nav-link">PROPERTIES</a>
                         </li>
                         <li className="nav-item">
@@ -32,13 +26,7 @@ const Navbar = () => {
                             <a href="/" className="nav-link">BLOG</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/" className="nav-link uzun">CONTACT US</a>
-                        </li>
-                        <li className="nav-item">
                             <a href="/" className="nav-link">SEARCH</a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="/" className="nav-link uzun">Add Listing</a>
                         </li>
                     </ul>
                 </div>
