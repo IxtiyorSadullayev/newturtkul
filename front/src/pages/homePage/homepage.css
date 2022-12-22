@@ -34,3 +34,8 @@ header{
 hr{
     margin: 0;
 }
+
+
+.bottom_border_text_link {
+    display: flex;
+}

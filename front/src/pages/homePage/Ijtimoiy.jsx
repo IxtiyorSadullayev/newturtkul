@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Ijtimoiy = () =>{
+const Ijtimoiy = () => {
 
-    return(
+    return (
         <>
             <div className="container ijtimoiy">
                 <div className="ijtimoiy_email">
@@ -19,6 +19,20 @@ const Ijtimoiy = () =>{
                     <span>93 712 38 22</span>
                 </div>
             </div>
+
+            <section className='bottom_border_text_link'>
+                <ul>
+                    <li className='text_link'>Home</li>
+                    <li className='text_link'>About US</li>
+                    <li className='text_link'>OUR AGENTS</li>
+                    <li className='text_link'>PROPERTIES</li>
+                    <li className='text_link'>GALLERY</li>
+                    <li className='text_link'>BLOG</li>
+                    <li className='text_link'>CONTACT US</li>
+                    <li className='text_link'>SEARCH</li>
+                    <button>Add Listing</button>
+                </ul>
+            </section>
         </>
     )
 }
