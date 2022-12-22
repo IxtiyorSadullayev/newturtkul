@@ -34,3 +34,18 @@ header{
 hr{
     margin: 0;
 }
+.linklar a{
+    margin: 0 10px ;
+    color: white!important;
+}
+.uzun{
+    width: 130px!important;
+}
+.asosiy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+}
