@@ -1,8 +1,14 @@
 import React from 'react'
-
+import Ijtimoiy from './Ijtimoiy'
+import './homepage.css'
 function HomePage() {
   return (
-    <div>HomePage .start</div>
+    <>
+      <header>
+        <Ijtimoiy />
+        <hr />
+      </header>
+    </>
   )
 }
 
