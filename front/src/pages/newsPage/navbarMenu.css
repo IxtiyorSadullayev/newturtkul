@@ -1,0 +1,71 @@
+.ijtimoiy{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C3A61;
+    color: white;
+}
+
+.border_navbar {
+    background-color: #2C3A61;
+    color: white; 
+}
+.ijtimoiy_email{
+    display: flex;
+    height: 100%;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ijtimoiy_email p{
+    margin: 0;
+}
+.ijtimoiy_iconlar{
+    display: flex;
+    height: 100%;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+hr{
+    margin: 0;
+}
+.linklar a{
+    margin: 0 10px ;
+    font-size: 14px!important;
+    color: white!important;
+}
+.uzun{
+    width: 130px!important;
+}
+.asosiy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text_links {
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    position: relative;
+    left: -100px;
+    top: 38px;
+}
+.txt_link {
+    font-family: 'Inter';
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.border_navbar_main {
+    background: url('../../img/bg_im.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
