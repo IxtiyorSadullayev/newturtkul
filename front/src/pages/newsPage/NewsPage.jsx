@@ -1,9 +1,11 @@
 import React from 'react'
+import './newsPage.css'
 
 function NewsPage() {
   return (
     <>
-      <div className="container ijtimoiy">
+    <div id='border'>
+    <div className="container ijtimoiy">
         <div className="ijtimoiy_email">
           <i className="fa fa-envelope-open"></i>
           <p>Email us at: <span>jonquin9999@gmail.com</span></p>
@@ -18,6 +20,7 @@ function NewsPage() {
           <span>93 712 38 22</span>
         </div>
       </div>
+    </div>
     </>
   )
 }
