@@ -106,3 +106,28 @@ hr {
     font-weight: 400;
     font-size: 16px;
 }
+
+.tabler_icon {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 45.3vh;
+}
+
+#icon__table {
+    margin: 0px 20vh;
+    position: relative;
+    right: 50vh;
+    font-family: 'Inter';
+}
+
+#icon_position {
+    margin-left: 2vh;
+    font-weight: 900;
+}
+
+.text__link_pos {
+    position: relative;
+    left: 21vh;
+    font-weight: 900;
+    font-family: 'Inter';
+}
