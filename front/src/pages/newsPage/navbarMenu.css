@@ -75,3 +75,139 @@ hr {
 .bottom_border_image {
     margin: 70px 0 0px;
 }
+
+.border_img_text_elements {
+    background: url(../../img/bg_im.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    margin: 70px 0 0;
+}
+
+.border_elements {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100px;
+    line-height: 50px;
+}
+
+.border_elements h1 {
+    font-size: 52px;
+    font-weight: 600;
+    font-family: 'Public Sans';
+    font-style: normal;
+}
+
+.border_elements h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.tabler_icon {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 85vh;
+}
+
+#icon__table {
+    position: relative;
+    right: 83vh;
+    font-family: 'Inter';
+}
+
+#icon_position {
+    margin-left: 2vh;
+    font-weight: 900;
+}
+
+.text__link_pos {
+    font-weight: 900;
+    font-family: 'Inter';
+    margin: 0 -36vh;
+}
+
+.wrappper_border_1 {
+    width: 424px;
+    height: 460px;
+    background: #FFFFFF;
+    box-shadow: 0px 25.697px 72.8081px rgba(59, 77, 129, 0.08);
+    border-radius: 6.42424px;
+    margin: -50px 18vh 0px;
+}
+
+.wrapper_borders h1 {
+    font-weight: 500;
+    font-size: 21.4141px;
+    margin: 0 2.5vh 3.6vh;
+    position: relative;
+    top: 25px;
+}
+
+.wrapper_borders h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #4A60A1;
+    margin: 0 2.5vh;
+}
+
+.border_text__pos {
+    display: flex;
+    color: #0000006b;
+    margin: 15px 1.5vh;
+}
+
+.arround {
+    margin-left: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.wrappper_border_1 {
+    margin: 0 2vh;
+}
+
+.hr_attribute {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+hr {
+    width: 372.61px;
+    font-weight: 900;
+}
+
+.bottom__border {
+    display: flex;
+}
+
+.bottom__border img {
+    margin: 10px 23px;
+}
+
+.bottom__border h1 {
+    font-weight: 900;
+    font-size: 17.1313px;
+    color: #363A3D;
+    margin: 0 -8px;
+}
+
+.bottom__border i {
+    position: relative;
+    left: 75px;
+    top: 30px;
+    margin: 0 12px;
+}
+
+.wrapper__s {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    margin: 25px;
+}
