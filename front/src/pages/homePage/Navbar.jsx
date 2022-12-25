@@ -9,7 +9,7 @@ const Navbar = () => {
                     <i className="fa fa-bars" style={{ color: 'white' }}></i>
                 </button>
                 <div className="collapse navbar-collapse" id="menu">
-                    <ul className="navbar-nav ijtimoiy me-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                     </ul>
                     <ul className="navbar-nav linklar">

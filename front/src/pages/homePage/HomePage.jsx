@@ -4,6 +4,7 @@ import './homepage.css'
 import Navbar from './Navbar'
 import Asosiy from './Asosiy'
 import Ofy from './OFYlar/Ofy'
+import AboutSite from './AboutSite/AboutSite'
 function HomePage() {
   return (
     <>
@@ -14,6 +15,7 @@ function HomePage() {
         <Asosiy />
       </header>
       <Ofy />
+      <AboutSite />
     </>
   )
 }
