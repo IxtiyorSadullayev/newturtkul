@@ -1,0 +1,92 @@
+.navigator_Propertice .navbar {
+    background: white;
+}
+
+.navigator_Propertice .navbar .nav-link {
+    font-family: 'Inter' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #0F1320 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navigator_Propertice .navbar img {
+    width: 151px;
+}
+
+.navigator_Propertice header {
+    background-image: url(../../img/bg_im.png);
+    max-width: 100%;
+    height: 60vh;
+}
+
+.header {
+    background: #746de266 !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header a {
+    color: white;
+    margin: 5px;
+}
+
+.cards{
+    margin-top: 5rem;
+}
+
+.card_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    flex-wrap: wrap;
+    margin: 0 0 10rem 0;
+}
+.card_one .cardLeft .card_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.card_one .cardLeft .card_header .card_header_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_one .card_body p{
+    width: 800px;
+}
+.card_one .cardLeft {
+    margin: 0 55px;
+}
+.card_one .card_footer{
+    margin: 25px 0;
+}
+.card_one .card_header_right i{
+    background: #989898 !important;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: blue;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.card_one .card_header_left h4{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.card_body{
+    margin: 25px 0 !important;
+}

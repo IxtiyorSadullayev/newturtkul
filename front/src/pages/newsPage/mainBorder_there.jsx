@@ -27,7 +27,7 @@ export default function MainBorder_there() {
                     </div>
                 </div>
             </div>
-
+        
             <div className="wrapper_borders">
                 <div className="wrappper_border_1">
                     <img src={Rasm} alt="..." />
