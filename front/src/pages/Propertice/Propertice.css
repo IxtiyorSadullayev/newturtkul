@@ -17,6 +17,11 @@
     flex-grow: 0;
 }
 
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navigator_Propertice .navbar img {
     width: 151px;
 }

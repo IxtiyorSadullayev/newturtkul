@@ -1,14 +1,18 @@
-import React from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Propertice.css'
-
 import cardimg1 from './../../img/cardimg1.png'
 import cardimg2 from './../../img/card2.png'
 import cardimg3 from './../../img/card3.png'
-
 import cardOne from '../../img/card_one.png'
 import Navbar from '../homePage/Navbar'
+
+
 function Propertice() {
+    const [like, setLike] = useState(false)
+    const clickLike = () => {
+        setLike(prev => !prev)
+    }
     return (
         <div>
             <div className="navigator_Propertice">
@@ -32,7 +36,7 @@ function Propertice() {
                                     </div>
                                     <div className="card_header_right">
                                         <i class="fas fa-share-nodes"></i>
-                                        <i class="fa-regular fa-heart"></i>
+                                        {like ? <i onClick={clickLike} class="fa-solid fa-heart"></i> : <i onClick={clickLike} class="fa-regular fa-heart"></i>}
                                         <i class="fa-solid fa-plus"></i>
                                     </div>
                                 </div>
