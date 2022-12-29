@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const Adress = require('./../model/Adress')
 const multer = require('multer');
+const { getOneAdress, delAdress } = require('../controller/adress');
 
 
 const storage = multer.diskStorage({
@@ -39,6 +40,10 @@ router.post('/adress', upload.single('img'), async (req, res) => {
         })
     }
 })
+
+router.get('/adress/:id', getOneAdress);
+router.delete('/adress/:id', delAdress);
+
 
 
 module.exports = router;
