@@ -89,3 +89,7 @@ hr{
     position: absolute;
     bottom: 10%;
 }
+
+.navbar-brand img{
+    width: 120px;
+}

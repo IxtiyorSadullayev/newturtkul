@@ -1,0 +1,70 @@
+.Footer footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Footer footer .footer_children {
+    margin: 0 105px;
+}
+
+.Footer footer .footer_children a {
+    display: block;
+    color: #6D737A;
+    font-size: 1.2rem;
+    transition: 0.5s !important;
+    font-weight: 400;
+    width: 170px;
+    margin: 30px 0;
+    padding: 0 15px 0 0;
+}
+
+.Footer footer .footer_children a:hover{
+    padding: 0 0 0 5px;
+    transition: 0.1s !important;
+}
+
+.Footer footer .footer_children img {
+    width: 200px;
+    margin: 30px 0;
+}
+
+.Footer footer .one_footer h4 {
+    margin: 30px 0;
+    font-weight: 700;
+}
+
+.Footer footer .footer_children p {
+    color: #6D737A;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 360px;
+    margin: 35px 0;
+}
+.Footer .footer_children .email{
+    color: black;
+    font-weight: 600;
+    width: 260px;
+}
+.Footer footer .one_footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0;
+}
+.Footer footer .one_footer .icons i{
+    margin: 0 20px 0 0;
+    background: #EDEFF6;
+    border-radius: 8px;
+    color: indigo;
+    padding: 15px;
+    transition: 0.5s;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.Footer footer .one_footer .icons i:hover{
+    background: indigo;
+    color: #EDEFF6;
+    transition: 0.5s;
+}
