@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 app.use('/rasmlar', express.static('./rasmlar'))
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb://localhost/testmyturtkul')
+mongoose.connect('mongodb+srv://ixtiyor99:ixtiyor99@cluster0.mpzth.mongodb.net/?retryWrites=true&w=majority')
 .then(()=> console.log(`Malumotlar bazasiga boglandi`))
 .catch(e => console.log(`Hatolik bor \n${e.message}`))
 
