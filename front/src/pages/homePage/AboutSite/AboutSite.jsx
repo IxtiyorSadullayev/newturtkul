@@ -10,17 +10,7 @@ function AboutSite() {
                 </div>
             </div>
             <div className="container">
-                <div className="row">
-                    <div className="col-sm-12 col-md-3">
-                        <img src="https://picsum.photos/100" alt="rasm" className="img-fluid" />
-                        <h4>Title</h4>
-                        <p>text</p>
-                        <a href="/" className="nav-link">link</a>
-                    </div>
-                    <div className="col-sm-12 col-md-3"></div>
-                    <div className="col-sm-12 col-md-3"></div>
-                    <div className="col-sm-12 col-md-3"></div>
-                </div>
+                
             </div>
         </div>
     )

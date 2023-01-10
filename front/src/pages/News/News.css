@@ -1,0 +1,80 @@
+.CardSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1500px;
+}
+
+.Cards .Card img {
+    max-width: 424px;
+    height: auto;
+}
+
+.Cards .Card {
+    max-width: 424px;
+    background: #FFFFFF;
+    padding: 0 0 2px 0;
+    margin: 20px;
+
+    border-radius: 8px;
+}
+
+.Cards .Card .Summ {
+    margin: 30px 0;
+}
+
+.Cards .Card .img_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 25px 0;
+}
+
+.Cards .Card .img_name div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.Cards .Card .img_name img {
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.Cards .Card .img_name .card_header_right {
+    width: 40%;
+}
+
+.Cards .Card .img_name .card_header_right i {
+    background: #EDEFF6;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 9px;
+}
+
+.Cards .Card .CardHeaders {
+    margin: 15px 0 0 15px;
+}
+
+.NewsNav .nav-link {
+    color: black !important;
+}
+
+.NewsNav .ijtimoiy {
+    background: red !important;
+}
+.NewsNavHead{
+    width: 100% !important;
+    background: #2C3A61;
+    color: white;
+}
